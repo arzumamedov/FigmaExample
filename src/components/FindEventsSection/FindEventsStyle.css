@@ -1,0 +1,49 @@
+.findEvents {
+    width: 100%;
+    min-height: 770px;
+    background-image: url("../../assets/images/mainimage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.findEvents .findEventsTexts {
+    width: 50%;
+    min-height: 100px;
+    margin: auto;
+    position: absolute;
+    bottom: 110px;
+    left: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    z-index: 2;
+}
+
+
+.findEvents .findEventsTexts .textsContainer .firstText {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.findEvents .findEventsTexts .textsContainer .secondText {
+    color: #FFF5F6;
+    font-size: 20px;
+    font-family: "Montserrat";
+}
+
+.findEvents .findEventsTexts button {
+    width: 190px;
+    background-color: #F84757;
+    border: none;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.findEvents .findEventsTexts button:hover {
+    cursor: pointer;
+}

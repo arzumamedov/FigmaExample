@@ -1,0 +1,46 @@
+.footerMain {
+    width: 100%;
+    min-height: 150px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.footerMain .footerTop {
+    width: 85%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.footerMain .footerTop .footerTopText {
+    font-size: 16px;
+    color: #FFF5F6;
+}
+
+.footerMain .footerBottom {
+    width: 85%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerMain .footerBottom .eventslink {
+    color: #FFF5F6;
+    font-size: 24px;
+    font-weight: 500;
+}
+.footerMain .footerBottom .footerBottomRight{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footerMain .footerBottom .footerBottomRight .mail{
+    color: #FFF5F6;
+}

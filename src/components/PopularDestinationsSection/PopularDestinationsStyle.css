@@ -1,0 +1,25 @@
+.popularDestinations .popularCard {
+    width: 295px;
+    min-height: 295px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.imageBg {
+    width: 295px;
+    height: 295px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imageBg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.popularDestinations .popularCard .name{
+    font-size: 20px;
+    font-weight: 500;
+}

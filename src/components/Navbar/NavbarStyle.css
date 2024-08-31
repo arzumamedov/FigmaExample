@@ -1,0 +1,40 @@
+.navbarMain {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.navbarMain .navbar {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarMain .navbar .navbarLeft {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.navbarMain .navbar .navbarLeft .navbarText {
+    font-size: 17px;
+    color: #FFF5F6;
+}
+
+.navbarMain .navbar .navbarRight {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbarMain .navbar .navbarRight .language {
+    display: flex;
+}
+
+.navbarMain .navbar .navbarRight .others {
+    display: flex;
+    gap: 12px;
+}
